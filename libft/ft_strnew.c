@@ -6,7 +6,7 @@
 /*   By: asybil <asybil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/25 19:24:03 by asybil            #+#    #+#             */
-/*   Updated: 2019/10/26 16:54:27 by asybil           ###   ########.fr       */
+/*   Updated: 2019/11/26 23:54:10 by asybil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,8 +20,8 @@ char	*ft_strnew(size_t size)
 	i = 0;
 	if (size == 0)
 		return (NULL);
-	if (!(tmp = (char*)malloc(sizeof(tmp)* (size + 1))))
-        return (NULL);
+	if (!(tmp = (char*)malloc(sizeof(tmp) * (size + 1))))
+		return (NULL);
 	while (i < size)
 		tmp[i++] = 0;
 	tmp[size] = '\0';
