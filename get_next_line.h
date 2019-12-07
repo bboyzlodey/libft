@@ -6,14 +6,14 @@
 /*   By: asybil <asybil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/10/28 20:44:55 by asybil            #+#    #+#             */
-/*   Updated: 2019/11/09 14:28:16 by asybil           ###   ########.fr       */
+/*   Updated: 2019/12/07 21:05:04 by asybil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
 # define BUFF_SIZE 10
-# include "./libft/libft.h"
+# include "./libft.h"
 # include <fcntl.h>
 # include <sys/uio.h>
 # include <sys/types.h>
