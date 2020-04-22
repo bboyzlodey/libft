@@ -35,9 +35,6 @@ Libft is a School 42 project. The purpose of this project is to create own C lib
 * [ft_isprint](/ft_isprint.c)
 * [ft_toupper](/ft_toupper.c)
 * [ft_tolower](/ft_tolower.c)
-
-### Additional functions
-
 * [ft_memalloc](/ft_memalloc.c)
 * [ft_memdel](/ft_memdel.c)
 * [ft_strnew](/ft_strnew.c)
@@ -62,15 +59,10 @@ Libft is a School 42 project. The purpose of this project is to create own C lib
 * [ft_putstr_fd](/ft_putstr_fd.c)
 * [ft_putendl_fd](/ft_putendl_fd.c)
 * [ft_putnbr_fd](/ft_putnbr_fd.c)
-
-### Bonus functions
-
-**By task**
-
 * [ft_lstnew](/ft_lstnew.c)
 * [ft_lstdelone](/ft_lstdelone.c)
 * [ft_lstdel](/ft_lstdel.c)
 * [ft_lstadd](/ft_lstadd.c)
 * [ft_lstiter](/ft_lstiter.c)
 * [ft_lstmap](/ft_lstmap.c)
-
+* [get_next_line](/get_next_line.c) int get_next_line(const int fd, char **line) This function return 0 if read from file descriptor was ended, 1 - if to be continued, -1 - if error of reading.
