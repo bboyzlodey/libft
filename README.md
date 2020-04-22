@@ -65,4 +65,4 @@ Libft is a School 42 project. The purpose of this project is to create own C lib
 * [ft_lstadd](/ft_lstadd.c)
 * [ft_lstiter](/ft_lstiter.c)
 * [ft_lstmap](/ft_lstmap.c)
-* [get_next_line](/get_next_line.c) int get_next_line(const int fd, char **line) This function return 0 if read from file descriptor was ended, 1 - if to be continued, -1 - if error of reading.
+* [get_next_line](/get_next_line.c) ```C int get_next_line(const int fd, char **line)``` This function return 0 if read from file descriptor was ended, 1 - if to be continued, -1 - if error of reading.
