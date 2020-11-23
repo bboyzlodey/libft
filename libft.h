@@ -6,7 +6,7 @@
 /*   By: asybil <asybil@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/16 19:58:03 by asybil            #+#    #+#             */
-/*   Updated: 2019/10/28 20:12:54 by asybil           ###   ########.fr       */
+/*   Updated: 2020/11/23 04:15:41 by asybil           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 # include <string.h>
+# include "get_next_line.h"
 # define ANSI_COLOR_GREEN   "\x1b[32m"
 # define ANSI_COLOR_YELLOW  "\x1b[33m"
 # define ANSI_COLOR_BLUE    "\x1b[34m"
