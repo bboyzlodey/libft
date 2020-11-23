@@ -25,7 +25,7 @@ OBJ = $(SRCS:.c=.o)
 all: $(NAME)
 
 %.o : %.c libft.h
-	$(CC) -c $(FLAGS) $< -I libft.h get_next_line.h
+	$(CC) -c $(FLAGS) $<
 
 $(NAME): $(OBJ)
 	@ar rc $@ $^
